@@ -12,7 +12,11 @@ export default function LoginPage({ searchParams }: { searchParams: Promise<{ er
   return (
     <main className="auth-page">
       <div className="auth-panel stack">
-        <h1 className="page-title">Sign in to KDSP</h1>
+        <svg className="app-logo" width="60" height="39" viewBox="0 0 40 26" fill="currentColor" aria-label="Lepide" role="img">
+          <path d="M10 2h6l-10 22h-6Z" /><path d="M20 2h6l-10 22h-6Z" /><path d="M30 2h6l-10 22h-6Z" />
+        </svg>
+        <h1 className="page-title">Sign in to LDSP</h1>
+
         <section className="lp-card lp-card--elevated">
           <div className="lp-card__body">
             <form action={signIn} className="stack">

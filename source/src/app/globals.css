@@ -106,3 +106,7 @@ body {
   width: 100%;
   max-width: 30rem;
 }
+
+.auth-panel > .page-title {
+  text-align: center;
+}
