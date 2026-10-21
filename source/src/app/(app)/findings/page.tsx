@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import { FindingsFilters } from "../../../components/FindingsFilters";
+import { ExportFindingsButton } from "../../../components/ExportFindingsButton";
 import { Card, CellText, EmptyState, ErrorMessage, RiskBadge, Spinner, Table } from "../../../components/lp";
 import type { FindingType, Risk } from "../../../lib/detection/types";
 import { parseFindingFilters } from "../../../lib/findings/filters";
@@ -50,7 +51,7 @@ async function FindingsContent({ searchParams }: { searchParams: SearchParams })
           />
         </Card>
       ) : (
-        <Card title={`Findings (${rows.length})`}>
+        <Card title={`Findings (${rows.length})`} actions={<ExportFindingsButton rows={rows} />}>
           <Table<FindingRow>
             caption="Findings"
             rows={rows}
