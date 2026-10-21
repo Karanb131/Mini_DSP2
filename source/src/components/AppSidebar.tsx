@@ -53,7 +53,7 @@ export function AppSidebar() {
         <svg className="app-logo" width="40" height="26" viewBox="0 0 40 26" fill="currentColor" aria-label="Lepide" role="img">
           <path d="M10 2h6l-10 22h-6Z" /><path d="M20 2h6l-10 22h-6Z" /><path d="M30 2h6l-10 22h-6Z" />
         </svg>
-        <span className="app-brand">MiniDSP</span>
+        
       </div>
       <ul className="lp-sidebar__items">
         {NAV.map((item) => {

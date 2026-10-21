@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MiniDSP",
+  title: "KDSP",
   description: "Training-only data discovery and classification",
 };
 
