@@ -12,7 +12,7 @@ export default function LoginPage({ searchParams }: { searchParams: Promise<{ er
   return (
     <main className="auth-page">
       <div className="auth-panel stack">
-        <h1 className="page-title">Sign in to MiniDSP</h1>
+        <h1 className="page-title">Sign in to KDSP</h1>
         <section className="lp-card lp-card--elevated">
           <div className="lp-card__body">
             <form action={signIn} className="stack">
